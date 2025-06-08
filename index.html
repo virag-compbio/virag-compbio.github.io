@@ -1,68 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Virag Sharma | Senior Bioinformatics Scientist</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; color: #333; }
-    h1, h2 { color: #005A9C; }
-    a { color: #005A9C; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Virag Sharma - CV</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body id="top">
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#research">Research Areas</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="pubs.html"> Publications</a></li>
+        </ul>
+    </nav>
 
-  <h1>Virag Sharma, PhD</h1>
-  <p><strong>Senior Bioinformatics Scientist</strong><br>
-  Dresden Concept Genome Center, Germany</p>
+    <header>
+        <h1>Virag Sharma</h1>
+        <p>Dresden, Germany | <a href="mailto:virag2k@gmail.com">virag2k@gmail.com</a>  | <a href="https://github.com/virag-compbio" target="_blank">GitHub</a></p>
+    </header>
 
-  <h2>About Me</h2>
-  <p>
-    I specialize in computational biology with a focus on transcriptomics, immunoinformatics, and gene evolution. 
-    My work blends algorithm development, reproducible data analysis, and biological discovery.
-    I've published extensively and maintain several open-source tools widely used by the genomics community.
-  </p>
+    <main>
+    <section id="summary">
+        <h2>Summary</h2>
+        <ul>
+            <li>Accomplished bioinformatics scientist with over 12 years of post-PhD experience in computational biology, genomics, and transcriptomics (bulk and single-cell).</li>
+            <li>Proven expertise in building automated analysis pipelines, developing novel software tools, and managing large-scale sequencing projects.</li>
+            <li>Strong background in machine learning, data integration, and HPC computing.</li>
+            <li>Recognized contributor to major publications, with a focus on immunoinformatics and comparative genomics.</li>
+            <li>Demonstrated leadership through teaching, mentoring, and cross-disciplinary collaborations across Europe.</li>
+        </ul>
+        <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
+    </section>
 
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Computational Immunology</li>
-    <li>Comparative Genomics & Gene Loss</li>
-    <li>Machine Learning Applications in Biology</li>
-    <li>Big Data Infrastructure & FAIR Principles</li>
-  </ul>
+    <section id="research">
+    <h2>Research Areas</h2>
+    <h3>Computational Immunology</h3>
+    <ul>
+        <li>Developed single-cell genomics and machine learning frameworks to distinguish activated T cell subsets with >95% accuracy using minimal gene sets.</li>
+        <li>Identified novel markers (e.g., TRIM) and key gene signatures of antigen-responsive CD8+ T cells.</li>
+        <li>Organized a TCR-epitope prediction benchmarking hackathon to evaluate the performance of different tools.</li>
+        <li>Established metabolic requirements for CD4+ T cell function under stress.</li>
+    </ul>
+    <h3>Comparative Genomics</h3>
+    <ul>
+        <li>Created scalable tools (CESAR, TOGA) for genome-wide orthology and gene annotation across hundreds of species.</li>
+        <li>Systematically identified gene losses linked to dietary and ecological adaptations.</li>
+        <li>Revealed molecular mechanisms of evolutionary adaptation in mammals through comparative genomics.</li>
+        <li>Developed tools to improve the utility of genome alignments for the purpose of comparative genome annotation.</li>
+    </ul>
+    <h3>Recoding and Frameshifting</h3>
+    <ul>
+        <li>Performed systematic analysis of non-canonical translation mechanisms in bacteria, identifying >6,000 genes utilizing programmed ribosomal frameshifting and transcriptional realignment.</li>
+        <li>Characterized frameshift motifs and efficiency rules for different frameshift-prone motifs.</li>
+        <li>Developed visualization tools (CodonLogo) for codon pattern analysis.</li>
+    </ul>
+    <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
+</section>
 
-  <h2>Technical Skills</h2>
-  <ul>
-    <li><strong>Languages:</strong> Python, R, Perl, Rust, C++</li>
-    <li><strong>Tools:</strong> Docker, Singularity, SLURM, Git, Ansible, Quarto</li>
-    <li><strong>Frameworks:</strong> PyTorch, Scikit-learn</li>
-    <li><strong>Database:</strong> MySQL with SQLAlchemy</li>
-  </ul>
+    <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/hillerlab/GeneLossPipe" target="_blank">Gene loss pipeline</a>
+            <br /> Objective - Detecting gene losses from genome alignments at a very high specificity.
+        </li>
+        <li>
+            <a href="https://github.com/hillerlab/CESAR2.0/tree/master/tools" target="_blank">CESAR gene annotation engine</a>
+            <br /> Objective - Comparative gene annotation toolkit.
+        </li>
+        <li>
+            <a href="https://github.com/bonifaciolab/classifier_AntigenResponsiveCD8TCells" target="_blank">SVM-based classifier for antigen-responsive CD8+ T-cells</a>
+            <br /> Objective - Discriminating stimulated antigen-responsive CD8+ T-cells from unresponsive cells.
+        </li>
+        <li>
+            <a href="https://github.com/virag-compbio/paraSLURM" target="_blank">Job submission system to HPC cluster</a>
+            <br /> Objective - A Python wrapper for automated submission, monitoring, and management of HPC jobs on SLURM clusters.
+        </li>
+        <li>
+            <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/imm.13460" target="_blank">Immune cell classifier</a>
+            <br /> Objective - A machine learning classifier to discriminate between immune cell types.
+        </li>
+    </ul>
+    <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
+</section>
 
-  <h2>Software Projects</h2>
-  <ul>
-    <li><a href="https://github.com/hillerlab/GeneLossPipe" target="_blank">GeneLossPipe</a> – Detection of gene loss in mammals</li>
-    <li><a href="https://github.com/hillerlab/CESAR2.0/tree/master/tools" target="_blank">CESAR</a> – Comparative gene annotation engine</li>
-    <li><a href="https://github.com/bonifaciolab/classifier_AntigenResponsiveCD8TCells" target="_blank">Antigen CD8 Classifier</a></li>
-    <li><a href="https://github.com/virag-compbio/paraSLURM" target="_blank">paraSLURM</a> – SLURM-based job submission system</li>
-  </ul>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Proficient in Python, Perl and R. Intermediate skills in C, Rust, Bash</li>
+            <li>Workflow management: Snakemake, Nextflow</li>
+            <li>Database Management System: MySQL, SQLAlchemy</li>
+            <li>Machine learning: PyTorch, Scikit-learn</li>
+            <li>Containerization: Singularity, Docker</li>
+            <li>Version control: Git</li>
+        </ul>
+    <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
+</section>
 
-  <h2>Recent Publications</h2>
-  <ul>
-    <li><strong>Science (2023)</strong> – Gene annotation at scale (Kirilenko et al.)</li>
-    <li><strong>Immunoinformatics (2023)</strong> – TCR-epitope benchmarking (Meysman et al., co-corresponding)</li>
-    <li><strong>Immunology (2022)</strong> – Treg vs Tconv discrimination using single-cell tech</li>
-    <li><strong>Current Biology (2022)</strong> – Gene regulation of limb proportions</li>
-    <li><strong>Nature Communications (2018)</strong> – Gene losses in mammalian adaptation</li>
-  </ul>
+    <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li>
+            <strong>Senior Bioinformatics Scientist</strong>@Dresden Concept Genome Center, Dresden, Germany from March 2024 – present
+            <ul>
+                <li>Development of data analysis pipelines for the analysis of single-cell and spatial transcriptomics datasets.</li>
+                <li>Data Steward for the German Human Genome-Phenome Archive’s (GHGA) Dresden Datahub, focused on creating solutions to facilitate data sharing in alignment with FAIR principles.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Assistant Professor in Protein Biochemistry</strong>@Department of Chemical Sciences, University of Limerick, Limerick, Ireland from October 2021 – February 2024
+            <ul>
+                <li>Module leader for Bioinformatics in Genetics and Protein Analysis, and Cell Biochemistry.</li>
+                <li>Led a research group and mentored 2 PhD students.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Research Associate</strong>@Center for Regenerative Therapies (CRTD), Dresden, Germany from January 2018 – October 2021.
+            <ul>
+                <li>Developed software tools for the analysis of transcriptomics datasets relevant to immune repertoires, from raw sequencing data to differential expression analysis and visualization.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Postdoctoral Fellow</strong>@Max Planck Institute of Molecular Cell Biology and Genetics; Max Planck Institute for the Physics of Complex Systems, Dresden, Germany from January 2013 - December 2017.
+            <ul>
+                <li>Developed tools and computational pipelines for comparative genomics studies of mammalian genomes, including tools for genome assembly quality assessment, genome alignment improvement, and comparative gene annotation.</li>
+            </ul>
+        </li>
+    </ul>
+    <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
+</section>
 
-  <h2>Contact</h2>
-  <p>
-    📧 <a href="mailto:virag2k@gmail.com">virag2k@gmail.com</a><br>
-    📞 +49 155 1007 7246<br>
-    🐙 <a href="https://github.com/virag-compbio" target="_blank">GitHub: virag-compbio</a>
-  </p>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>PhD</strong>, University College Cork, Biochemistry (Bioinformatics), Ireland (2008–2012)</li>
+            <ul>
+                <li> Thesis title: Recoding in Bacterial Genomes: 7000 genes and counting </li>
+            </ul>    
+            <li><strong>MS(Pharm)</strong>, NIPER Mohali, Pharmacoinformatics, India (2005–2007)</li>
+            <ul>
+                <li> Thesis title: Prediction of Protein Function: A Data Mining Approach </li>
+            </ul>
+            <li><strong>BPharm</strong>, Panjab University Chandigarh, Pharmacy, India (2001–2005)</li>
+        </ul>
+    <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
+</section>
+    
+    
+    </main>
+
+    <footer>
+        <p>Last updated: June 2025 | © Virag Sharma</p>
+    </footer>
 
 </body>
 </html>

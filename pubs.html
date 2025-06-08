@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        .publication {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        .publication-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .impact {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #e8f4f8;
+            border-radius: 4px;
+            font-style: italic;
+        }
+        .impact-label {
+            font-weight: bold;
+            color: #2980b9;
+            font-style: normal;
+        }
+        .doi-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+        .doi-link:hover {
+            background-color: #2980b9;
+        }
+        .back-to-top {
+            display: inline-block;
+            margin-left: 15px;
+            padding: 8px 16px;
+            background-color: #95a5a6;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+        .back-to-top:hover {
+            background-color: #7f8c8d;
+        }
+        .publication-number {
+            font-weight: bold;
+            color: #3498db;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="top">Publications</h1>
+
+        <!-- Navigation Menu -->
+        <nav class="publications-menu">
+            <ul>
+                <li><a href="#comparative-genomics">Comparative Genomics</a></li>
+                <li><a href="#immunology">Immunology</a></li>
+                <li><a href="#recoding">Recoding</a></li>
+                <li><a href="#book-chapter">Book Chapter</a></li>
+            </ul>
+        </nav>
+
+        <style>
+        .publications-menu {
+            background-color: #34495e;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .publications-menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .publications-menu li {
+            margin: 0;
+        }
+
+        .publications-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s, transform 0.2s;
+            display: block;
+        }
+
+        .publications-menu a:hover {
+            background-color: #3498db;
+            transform: translateY(-2px);
+        }
+
+        .publications-menu a:active {
+            transform: translateY(0);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .publications-menu ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .publications-menu a {
+                width: 200px;
+                text-align: center;
+            }
+        }
+        </style>
+
+        
+        <h2 id="comparative-genomics">Comparative Genomics</h2>
+        
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">1.</span>
+                Sharma V, Hecker N, Roscito JG, Foerster L, Langer BE, Hiller M. A genomics approach reveals insights into the importance of gene losses for mammalian adaptations. Nature Communications 2018 Mar 23;9(1):1215-1223.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> Inactivation of a protein-coding gene is often associated with the loss of a function resulting in the loss of a phenotype. In this study, we developed the first computational method to screen genome alignments and detect inactivated genes in different species at a very high accuracy and with minimal manual curation. More importantly, we showed that gene losses have conferred various morphological, physiological and metabolic adaptations to different placental mammalian species. Therefore, this study shows that gene losses may not be neutral or deleterious and in fact have been evolutionary engines in different species.
+            </div>
+            <a href="https://doi.org/10.1038/s41467-018-03667-1" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">2.</span>
+                Sharma V, Hiller M. Losses of human disease-associated genes in placental mammals. Nucleic Acids Research Genomics and Bioinformatics 2019 (doi: 10.1093/nargab/lqz012).
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> Genome wide association studies have identified several thousand genes in the human population where a loss-of-function mutation is associated with the development of a disease phenotype. In this study, we showed numerous examples of genes where a loss-of-function mutation is tolerated in a non-human species i.e. there is no development or progression of a disease. This study therefore highlights the existence of naturally occurring compensatory genetic mechanisms in other non-human mammalian species that prevents the onset/progression of a disease and a better understanding of these compensatory mechanisms could potentially be used to develop newer therapies for human diseases.
+            </div>
+            <a href="https://doi.org/10.1093/nargab/lqz012" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">3.</span>
+                Kirilenko BM, Munegowda C, Osipova E, Jebb D, Sharma V, Blumer M, et al. Integrating gene annotation with orthology inference at scale. Science. 2023 Apr 28;380(6643):eabn3107. doi: 10.1126/science.abn3107
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> An accurate annotation of protein-coding genes in different mammalian species is central to all comparative sequence analyses. However, this is not a trivial task given that different genome assemblies are not of consistently good quality and gene duplication or loss events make the inference of orthology quite challenging. In this study, we developed a machine-learning based classifier that allows an accurate discrimination of orthologs from paralogs and also produces pairwise or multiple sequence alignments that are amenable to additional downstream analyses. Moreover, we annotated protein-coding genes in close to 500 mammalian genome assemblies, so this study provides a tremendous resource for further analyses of gene loss, gene gain and other molecular evolutionary analyses at genome-scale levels.
+            </div>
+            <a href="https://doi.org/10.1126/science.abn3107" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">4.</span>
+                Sharma V, Walther F, Hecker N, Stuckas H, Hiller M. Convergent losses of TLR5 suggest altered extracellular flagellin detection in four mammalian lineages. Molecular Biology and Evolution. 2020 Mar 7. pii: msaa058. doi: 10.1093/molbev/msaa058.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We show that independent losses of TLR5 and TLR11 in multiple mammalian lineages reveal that extracellular flagellin sensing is dispensable in diverse ecological contexts. These findings provide new insights into the evolutionary flexibility of innate immune pathways.
+            </div>
+            <a href="https://doi.org/10.1093/molbev/msaa058" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">5.</span>
+                Sharma V, Lehmann T, Stuckas H, Funke L, Hiller M. Loss of RXFP2 and INSL3 genes in Afrotheria shows that testicular descent is the ancestral condition in placental mammals. PLoS Biology 2018 Jun 28;16(6):e2005293. doi: 10.1371/journal.pbio.2005293
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> By uncovering gene losses linked to testicular descent in afrotherians, we provide strong molecular evidence that testicular descent is the ancestral condition in placental mammals. This study demonstrates how 'molecular vestiges' illuminate the evolutionary history of soft-tissue traits absent from the fossil record.
+            </div>
+            <a href="https://doi.org/10.1371/journal.pbio.2005293" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">6.</span>
+                Hecker N, Sharma V, Hiller M. Convergent gene losses illuminate metabolic and physiological changes in herbivores and carnivores. Proceedings of the National Academy of the Sciences of the USA. 2019 Feb 19;116(8):3036-3041
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study reveals how convergent gene losses in diverse mammals underpin adaptations to herbivorous and carnivorous diets, shedding light on the genomic basis of dietary specialization, feeding behavior, and gut microbiome evolution. Our findings enhance understanding of the repeated evolution of mammalian ecological niches through molecular changes.
+            </div>
+            <a href="https://doi.org/10.1073/pnas.1818504116" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">7.</span>
+                Sharma V and Hiller M. Loss of Enzymes in the Bile Acid Synthesis Pathway Explains Differences in Bile Composition among Mammals. Genome Biology and Evolution. 2018 Dec 1;10(12):3211-3217
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study uncovers the genomic basis underlying deviations from the typical mammalian bile acid composition by identifying repeated loss of the CYP8B1 gene in naked-mole rats, elephants, and manatees, explaining their lack of cholic acid. It further reveals that species lacking bile acids entirely have lost additional nonessential bile acid-related genes, highlighting how essential genes are retained while pleiotropic genes may be lost if compensated. These findings elucidate evolutionary mechanisms shaping bile acid metabolism diversity in mammals.
+            </div>
+            <a href="https://doi.org/10.1073/pnas.1818504116" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">8.</span>
+                Saxena A, Sharma V, Muthuirulan P, Neufeld SJ, Tran MP, Gutierrez HL, Chen KD, Erberich JM, Birmingham A, Capellini TD, Cobb J, Hiller M, Cooper KL. Interspecies transcriptome analyses identify genes that control the development and evolution of limb skeletal proportion. Current Biology. 2022 Jan 24;32(2):289-303.e6
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> By comparing mouse and jerboa limb growth cartilages, we identified key genes, including Shox2, that control disproportionate skeletal elongation and reveal latent growth potential. These findings provide new insights into the genetic mechanisms shaping vertebrate limb proportion and evolutionary diversity.
+            </div>
+            <a href="https://doi.org/10.1016/j.cub.2021.10.063" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">9.</span>
+                Huelsmann M, Hecker N, Springer MS, Gatesy J, Sharma V, Hiller M. Genes lost during the transition from land to water in cetaceans highlight genomic changes involved in aquatic adaptations. Science Advances. 2019 Sep 25;5(9):eaaw6671. doi: 10.1126/sciadv.aaw6671.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We identified 85 gene losses in ancestral cetaceans, revealing molecular changes linked to diving physiology, pulmonary function, sleep, and other aquatic adaptations. Our findings highlight gene loss as an important mechanism underlying the evolutionary transition to a fully aquatic lifestyle.
+            </div>
+            <a href="https://doi.org/10.1126/sciadv.aaw6671" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">10.</span>
+                Sharma V, Elghafari A, Hiller M. Coding exon-structure aware realigner (CESAR) utilizes genome alignments for accurate comparative gene annotation. Nucleic Acids Research 2016 Jun 20;44(11):e103.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We developed CESAR, a coding exon-aware realignment tool that corrects spurious alignment artifacts and enables accurate comparative gene annotation across genomes. Using CESAR, we generated a high-quality resource of human gene annotations in 99 vertebrates, advancing large-scale comparative genomics.
+            </div>
+            <a href="https://doi.org/10.1007/978-1-4939-9173-0_10" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">11.</span>
+                Sharma V, Hiller M. Increased alignment sensitivity improves the usage of genome alignments for comparative gene annotation. Nucleic Acids Research 2017 Aug 21;45(14):8369-8377.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We show that increasing genome alignment sensitivity dramatically improves the completeness of comparative gene annotations, particularly for distantly related species. Our 144-vertebrate alignment and enhanced annotations provide a valuable resource for comparative genomics.
+            </div>
+            <a href="https://doi.org/10.1093/nar/gkx554" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">12.</span>
+                Sharma V, Schwede P, Hiller M. CESAR 2.0 substantially improves speed and accuracy of comparative gene annotation. Bioinformatics 2017 Dec 15;33(24):3985-3987.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We present CESAR 2.0, a highly efficient tool for transferring coding gene annotations across aligned genomes with greatly improved speed, memory use, and splice site accuracy. CESAR 2.0 enables scalable, precise comparative gene annotation for newly sequenced genomes.
+            </div>
+            <a href="https://doi.org/10.1093/bioinformatics/btx527" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">13.</span>
+                Hecker N, Sharma V, Hiller M. Transition to an Aquatic Habitat Permitted the Repeated Loss of the Pleiotropic KLK8 Gene in Mammals. Genome Biology and Evolution 2017 Nov 1;9(11):3179-3188.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We show that KLK8, a pleiotropic gene with roles in skin and hippocampus, was independently lost in multiple fully-aquatic mammalian lineages. Our findings highlight how environmental shifts can drive the loss of multifunctional genes during evolution.
+            </div>
+            <a href="https://doi.org/10.1093/gbe/evx239" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">14.</span>
+                Reichwald K, Petzold A, Koch P, Downie BR, Hartmann N, Pietsch S, Baumgart M, Chalopin D, Felder M, Bens M, Sahm A, Szafranski K, Taudien S, Groth M, Arisi I, Weise A, Bhatt SS, Sharma V, Kraus JM, Schmid F, Priebe S, Liehr T, Görlach M, Than ME, Hiller M, Kestler HA, Volff JN, Schartl M, Cellerino A, Englert C, Platzer M. Insights into Sex Chromosome Evolution and Aging from the Genome of a Short-Lived Fish. Cell 2015 Dec 3;163(6):1527-38.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> The annotated genome of Nothobranchius furzeri provides a valuable resource for studying vertebrate aging, diapause, and sex chromosome evolution. This work identifies gdf6Y as a candidate master sex-determining gene and uncovers shared molecular signatures between diapause and aging, offering insights into conserved pathways of growth and longevity.
+            </div>
+            <a href="https://doi.org/10.1016/j.cell.2015.10.071" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <h2 id="immunology"> Immunology</h2>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">1.</span>
+                Meyesman P et al. Benchmarking solutions to the T-cell receptor epitope prediction problem: IMMREP22 workshop report. Immunoinformatics. March 2023; doi: https://doi.org/10.1016/j.immuno.2023.100024
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> Our comprehensive benchmark of 23 TCR-epitope prediction models reveals key factors—such as paired alpha-beta chains and additional CDR or V/J information—that enhance prediction accuracy across methods. We also demonstrate that simple distance-based approaches remain competitive, underscoring the need for independent, standardized future benchmarks.
+            </div>
+            <a href="https://doi.org/10.1016/j.immuno.2023.100024" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">2.</span>
+                Reinhardt J, Sharma V, Stavridou A, Lindner A, Reinhardt S, Petzold A, Lesche M, Rost F, Bonifacio E, Eugster A. Distinguishing activated T regulatory cell and T conventional cells by single-cell technologies. Immunology. 2022 May;166(1):121-137.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We identified a minimal gene set that distinguishes antigen-responsive and non-responsive CD4⁺ Treg and Tconv cells with high accuracy using single-cell technologies. Our findings highlight TRIM as a novel flow cytometry marker to discriminate Treg from Tconv following activation.
+            </div>
+            <a href="https://doi.org/10.1111/imm.13460" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">3.</span>
+                Fuchs YF*#, Sharma V*#, Eugster A, Kraus G, Morgenstern R, Dahl A, Reinhardt S, Petzold A, Linder A, Löbel D and Bonifacio E#. Gene expression-based identification of antigen-responsive CD8+ T cells on a single-cell level Frontiers in Immunology. 2019 Nov 6;10:2568 (* Equal contribution, # Corresponding authors)
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We identified a robust gene signature and developed a machine learning classifier to sensitively detect virus-responsive CD8+ T cells from unselected single-cell data. This approach enables comprehensive identification of rare antigen-responsive T cells and their receptors, advancing immune monitoring and research.
+            </div>
+            <a href="https://doi.org/10.3389/fimmu.2019.02568" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">4.</span>
+                Holthaus L, Sharma V, Brandt D, Ziegler AG, Jastroch M, Bonifacio E. Functional and metabolic fitness of human CD4+ T lymphocytes during metabolic stress. Life Science Alliance. 2021 Sep 27;4(12):e202101013.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We reveal distinct metabolic dependencies of human CD4+ T cells during activation, proliferation, and cytokine production, highlighting how nutrient deprivation and mitochondrial stress impair immune function. These insights could guide strategies to optimize T-cell-based immunotherapies under metabolically challenging conditions.
+            </div>
+            <a href="https://doi.org/10.26508/lsa.202101013" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">5.</span>
+                Holthaus L, Lamp D, Gavrisan A, Sharma V, Ziegler AG, Jastroch M, Bonifacio E. CD4+ T cell activation, function, and metabolism are inhibited by low concentrations of DMSO. Journal of Immunological Methods 2018 Dec;463:54-60.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study demonstrates that DMSO, even at concentrations commonly used in vitro, impairs key aspects of human CD4+ T cell activation, cytokine production, proliferation, and metabolism. These findings underscore the need for caution when using DMSO-containing reagents in T cell assays to avoid confounding functional readouts.
+            </div>
+            <a href="https://doi.org/10.1016/j.jim.2018.09.004" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">6.</span>
+                Aljani B, Lindner A, Weigelt M, Zhao M, Sharma V, Bonifacio E, Jones P, Eugster A. Small RNA-Seq and real time rt-qPCR reveal islet miRNA released under stress conditions. Islets 2024 Dec 31;16(1):2392343. 10.1080/19382014.2024.2392343. Epub 2024 Aug 18.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study identifies circulating microRNAs as minimally invasive biomarkers of beta cell stress and health in the context of transplantation and type 1 diabetes. The proposed panel of 47 islet-related human miRNAs holds potential for improving early detection of beta cell dysfunction and monitoring graft viability in clinical settings.
+            </div>
+            <a href="https://doi.org/10.1080/19382014.2024.2392343" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">7.</span>
+                Goel M, Steinberg-Bains K, Eugster A, Wehner R, Tunger A, Reinhardt S, Sharma V, Rost F, Schmitz M, Schmelz R, Zeissig S, Rachner TD, Bornhäuser M, Bonifacio E, Link-Rachner CS. Combining T cell receptor sequencing and transcriptomics to characterize tissue-resident T cells from human gut biopsies. Biochemical and Biophysics Research Communications. 2025 Feb 16:749:151353
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study uniquely integrates flow cytometry, TCR sequencing, and transcriptomics to reveal personalized, tissue-specific T cell responses driving inflammation in gastrointestinal diseases. Our approach provides critical insights into localized immune mechanisms and offers a promising foundation for developing targeted therapies and biomarkers from limited biopsy samples.
+            </div>
+            <a href="https://doi.org/10.1016/j.bbrc.2025.151353" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <h2 id="recoding">Recoding</h2>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">1.</span>
+                Sharma V, Firth AE, Antonov I, Fayet O, Atkins JF, Borodovsky M, Baranov PV. A pilot study of bacterial genes with disrupted ORFs reveals a surprising profusion of protein sequence recoding mediated by ribosomal frameshifting and transcriptional realignment. Molecular Biology and Evolution 2011 Nov;28(11):3195-211.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We uncovered over 6,000 bacterial genes likely utilizing programmed ribosomal frameshifting (PRF) or the underexplored mechanism of programmed transcriptional realignment (PTR). Our findings suggest that recoding is a widespread and underappreciated strategy in bacterial gene expression.
+            </div>
+            <a href="https://doi.org/10.1093/molbev/msr155" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">2.</span>
+                Sharma V, Prère MF, Canal I, Firth AE, Atkins JF, Baranov PV, Fayet O. Analysis of tetra- and hepta-nucleotides motifs promoting -1 ribosomal frameshifting in Escherichia coli. Nucleic Acids Research 2014 Jun;42(11):7210-25.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We systematically quantified the -1 frameshifting potential of all known signal motifs in E. coli and identified 59 novel candidate gene clusters using this mechanism across Enterobacteriaceae. Our findings reveal key sequence determinants driving efficient bacterial -1 frameshifting and broaden its known functional landscape.
+            </div>
+            <a href="https://doi.org/10.1093/nar/gku386" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">3.</span>
+                Sharma V, Murphy DP, Provan G, Baranov PV. CodonLogo: a sequence logo-based viewer for codon patterns. Bioinformatics 2012 Jul 15;28(14):1935-6.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> We introduce CodonLogo, the first tool for visualizing conserved codon patterns in multiple sequence alignments using a codon-based alphabet. This approach enables clear discrimination between codon- and nucleotide-level conservation, addressing a key gap in the analysis of mRNA regulatory signals.
+            </div>
+            <a href="https://doi.org/10.1093/bioinformatics/bts295" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">4.</span>
+                Penno C, Sharma V, Coakley A, O'Connell Motherway M, van Sinderen D, Lubkowska L, Kireeva ML, Kashlev M, Baranov PV, Atkins JF. Productive mRNA stem loop-mediated transcriptional slippage: Crucial features in common with intrinsic terminators. Proceedings of the National Academy of the Sciences of the USA 2015 Apr 21;112(16):E1984-93.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study uncovers a novel mechanism of stem loop–mediated transcriptional slippage in bacterial and yeast RNA polymerases, driven by RNA-DNA hybrid realignment and critical for transposase expression. The findings expand our understanding of regulated transcriptional slippage and reveal mechanistic parallels to programmed ribosomal frameshifting, broadening the potential regulatory roles of RNA structures in gene expression.
+            </div>
+            <a href="https://doi.org/10.1073/pnas.1418384112" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">5.</span>
+                Meydan S, Marks J, Klepacki D, Sharma V, Baranov PV, Firth AE, Margus T, Kefi A, Vazquez-Laslop N, Mankin AS. Retapamulin-assisted ribosome profiling reveals the alternative bacterial proteome. Molecular Cell 2019 May 2;74(3):481-493
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study presents Ribo-RET, a retapamulin-enhanced ribosome profiling method that enables genome-wide mapping of translation initiation sites in bacteria. The discovery of widespread internal start sites reveals a hidden layer of proteome complexity and suggests new regulatory roles for alternative translation initiation in E. coli.
+            </div>
+            <a href="https://doi.org/10.1016/j.molcel.2019.02.017" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">6.</span>
+                Penno C, O'Connell Motherway M, Fu Y, Sharma V, Crispie F, Cotter PD, Houeix B, Joshi L, Bottacini F, O'Dwyer A, Loughran G, Atkins JF, van Sinderen D. Maximum depth sequencing reveals an ON/OFF replication slippage switch and apparent in vivo selection for bifidobacterial pilus expression. Scientific Reports 2022 Jun 10;12(1):9576. doi: 10.1038/s41598-022-13668-2.
+            </div>
+            <div class="impact">
+                <span class="impact-label">Impact:</span> This study uncovers a novel, environmentally modulated mechanism of gene regulation in the gut commensal Bifidobacterium breve, whereby replication slippage at intragenic G-tracts drives functional diversity in surface pili expression. By demonstrating in vivo selection for pili-promoting variants, the work highlights a previously unrecognized means by which beneficial gut bacteria dynamically adapt to the host environment, with broad implications for understanding microbe-host interactions and microbiome resilience.
+            </div>
+            <a href="https://doi.org/10.1038/s41598-022-13668-2" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+        <h2 id="book-chapter">Book Chapter</h2>
+
+        <div class="publication">
+            <div class="publication-title">
+                <span class="publication-number">1.</span>
+                Sharma V and Hiller M. Coding Exon-Structure Aware Realigner (CESAR): Utilizing genome alignments for comparative gene annotation: Methods in Molecular Biology 2019;1962:179-191.
+            </div>
+            <a href="https://doi.org/10.1007/978-1-4939-9173-0_10" class="doi-link" target="_blank">View Publication</a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+    </div>
+</body>
+</html>
